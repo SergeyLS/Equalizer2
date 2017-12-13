@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Equalizer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWF-js-peh">
+                                <rect key="frame" x="10" y="167" width="355" height="333.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9b-VE-Oso" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="increment">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XR-ae-1Wi" userLabel="Slider2" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="61" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOF-SB-oma" userLabel="Slider3" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="111.5" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50P-Lo-Ae2" userLabel="Slider4" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="162.5" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pr3-DS-p0n" userLabel="Slider5" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="213" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0C-lj-n8G" userLabel="Slider6" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="264" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knq-sj-Baz" userLabel="Slider7" customClass="VerticalSlider" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="315" y="10" width="30" height="313.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="vertical" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="100"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
+                                                <real key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="markWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tgd-OZ-2lb" userLabel="v1">
+                                        <rect key="frame" x="40" y="0.0" width="21" height="334"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-Lc-pKp" userLabel="v2">
+                                        <rect key="frame" x="91" y="0.0" width="20.5" height="333.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fy7-cW-x93" userLabel="v3">
+                                        <rect key="frame" x="141.5" y="0.0" width="21" height="333.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yP2-JF-EzJ" userLabel="v4">
+                                        <rect key="frame" x="192.5" y="0.0" width="21" height="333.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APq-NA-R8d" userLabel="v6">
+                                        <rect key="frame" x="294" y="0.0" width="21" height="333.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttu-s8-foe" userLabel="v5">
+                                        <rect key="frame" x="243.5" y="0.0" width="20.5" height="333.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ttu-s8-foe" firstAttribute="width" secondItem="Tgd-OZ-2lb" secondAttribute="width" id="1DH-fs-p5u"/>
+                                    <constraint firstItem="tKC-Lc-pKp" firstAttribute="leading" secondItem="2XR-ae-1Wi" secondAttribute="trailing" id="460-pN-83L"/>
+                                    <constraint firstItem="pr3-DS-p0n" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="5bM-st-7ZX"/>
+                                    <constraint firstItem="Tgd-OZ-2lb" firstAttribute="leading" secondItem="U9b-VE-Oso" secondAttribute="trailing" id="6Cu-js-eOV"/>
+                                    <constraint firstItem="2XR-ae-1Wi" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="6IU-f8-q2R"/>
+                                    <constraint firstAttribute="bottom" secondItem="ttu-s8-foe" secondAttribute="bottom" id="6Rd-A5-aqM"/>
+                                    <constraint firstAttribute="bottom" secondItem="fy7-cW-x93" secondAttribute="bottom" id="9Id-WX-r1Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="knq-sj-Baz" secondAttribute="bottom" constant="10" id="B93-tv-o2b"/>
+                                    <constraint firstAttribute="bottom" secondItem="U9b-VE-Oso" secondAttribute="bottom" constant="10" id="BAN-qZ-ccS"/>
+                                    <constraint firstItem="Tgd-OZ-2lb" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="C4N-ut-Yq3"/>
+                                    <constraint firstItem="fOF-SB-oma" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="E0P-NA-2CY"/>
+                                    <constraint firstItem="G0C-lj-n8G" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="HZt-aH-x4a"/>
+                                    <constraint firstItem="tKC-Lc-pKp" firstAttribute="width" secondItem="Tgd-OZ-2lb" secondAttribute="width" id="HgC-vh-btd"/>
+                                    <constraint firstItem="G0C-lj-n8G" firstAttribute="leading" secondItem="ttu-s8-foe" secondAttribute="trailing" id="Hzv-Oq-Jcd"/>
+                                    <constraint firstItem="APq-NA-R8d" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="Ifc-qq-Jxx"/>
+                                    <constraint firstItem="fOF-SB-oma" firstAttribute="leading" secondItem="tKC-Lc-pKp" secondAttribute="trailing" id="Kuj-vW-0HD"/>
+                                    <constraint firstAttribute="bottom" secondItem="2XR-ae-1Wi" secondAttribute="bottom" constant="10" id="LQ8-oE-iM9"/>
+                                    <constraint firstItem="fy7-cW-x93" firstAttribute="leading" secondItem="fOF-SB-oma" secondAttribute="trailing" id="LV3-hu-YJH"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tgd-OZ-2lb" secondAttribute="bottom" id="Lrg-GF-bHi"/>
+                                    <constraint firstAttribute="trailing" secondItem="knq-sj-Baz" secondAttribute="trailing" constant="10" id="Lsi-oG-0eh"/>
+                                    <constraint firstItem="knq-sj-Baz" firstAttribute="leading" secondItem="APq-NA-R8d" secondAttribute="trailing" id="M50-oy-fow"/>
+                                    <constraint firstItem="yP2-JF-EzJ" firstAttribute="width" secondItem="Tgd-OZ-2lb" secondAttribute="width" id="Mzi-sy-yBe"/>
+                                    <constraint firstItem="APq-NA-R8d" firstAttribute="width" secondItem="Tgd-OZ-2lb" secondAttribute="width" id="Nru-Kw-1MQ"/>
+                                    <constraint firstItem="50P-Lo-Ae2" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="RM7-4h-giY"/>
+                                    <constraint firstAttribute="bottom" secondItem="APq-NA-R8d" secondAttribute="bottom" id="Rzy-oM-vjK"/>
+                                    <constraint firstItem="yP2-JF-EzJ" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="TJg-3t-Zcn"/>
+                                    <constraint firstItem="APq-NA-R8d" firstAttribute="leading" secondItem="G0C-lj-n8G" secondAttribute="trailing" id="UTM-TG-HCf"/>
+                                    <constraint firstAttribute="bottom" secondItem="tKC-Lc-pKp" secondAttribute="bottom" id="Uom-8t-cUP"/>
+                                    <constraint firstAttribute="bottom" secondItem="G0C-lj-n8G" secondAttribute="bottom" constant="10" id="Vfk-hB-AFg"/>
+                                    <constraint firstItem="pr3-DS-p0n" firstAttribute="leading" secondItem="yP2-JF-EzJ" secondAttribute="trailing" id="Wls-gH-3M2"/>
+                                    <constraint firstAttribute="bottom" secondItem="pr3-DS-p0n" secondAttribute="bottom" constant="10" id="cZP-na-KNk"/>
+                                    <constraint firstItem="yP2-JF-EzJ" firstAttribute="leading" secondItem="50P-Lo-Ae2" secondAttribute="trailing" id="fUl-Ny-tZM"/>
+                                    <constraint firstItem="fy7-cW-x93" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="fWX-Ru-CXA"/>
+                                    <constraint firstItem="ttu-s8-foe" firstAttribute="leading" secondItem="pr3-DS-p0n" secondAttribute="trailing" id="k2A-TX-vBP"/>
+                                    <constraint firstAttribute="bottom" secondItem="50P-Lo-Ae2" secondAttribute="bottom" constant="10" id="k8C-1h-KTl"/>
+                                    <constraint firstItem="U9b-VE-Oso" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="kIF-Aq-vhx"/>
+                                    <constraint firstItem="50P-Lo-Ae2" firstAttribute="leading" secondItem="fy7-cW-x93" secondAttribute="trailing" id="mOD-6E-GJE"/>
+                                    <constraint firstItem="tKC-Lc-pKp" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="nJq-nB-s4P"/>
+                                    <constraint firstItem="fy7-cW-x93" firstAttribute="width" secondItem="Tgd-OZ-2lb" secondAttribute="width" id="q4i-in-3aM"/>
+                                    <constraint firstItem="knq-sj-Baz" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" constant="10" id="r2d-Te-1nh"/>
+                                    <constraint firstAttribute="bottom" secondItem="yP2-JF-EzJ" secondAttribute="bottom" id="rGX-oS-eYV"/>
+                                    <constraint firstItem="ttu-s8-foe" firstAttribute="top" secondItem="EWF-js-peh" secondAttribute="top" id="vWQ-P1-tpt"/>
+                                    <constraint firstAttribute="bottom" secondItem="fOF-SB-oma" secondAttribute="bottom" constant="10" id="xj9-g5-K2k"/>
+                                    <constraint firstItem="U9b-VE-Oso" firstAttribute="leading" secondItem="EWF-js-peh" secondAttribute="leading" constant="10" id="ygm-Nj-gHo"/>
+                                    <constraint firstItem="2XR-ae-1Wi" firstAttribute="leading" secondItem="Tgd-OZ-2lb" secondAttribute="trailing" id="zSc-Tm-bIJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EWF-js-peh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MpJ-tk-wZA"/>
+                            <constraint firstItem="EWF-js-peh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEZ-v2-1ca"/>
+                            <constraint firstItem="EWF-js-peh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="kDj-dO-54q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EWF-js-peh" secondAttribute="trailing" constant="10" id="ogU-9X-Bl1"/>
+                            <constraint firstItem="EWF-js-peh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="ryz-ud-8LW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="slider1" destination="U9b-VE-Oso" id="KZA-fo-8r2"/>
+                        <outlet property="slider2" destination="2XR-ae-1Wi" id="ZwI-94-hZR"/>
+                        <outlet property="slider3" destination="fOF-SB-oma" id="Kvb-3x-3Es"/>
+                        <outlet property="slider4" destination="50P-Lo-Ae2" id="aDA-D3-0a3"/>
+                        <outlet property="slider5" destination="pr3-DS-p0n" id="QCs-vR-WHf"/>
+                        <outlet property="slider6" destination="G0C-lj-n8G" id="Lpb-Ls-fd6"/>
+                        <outlet property="slider7" destination="knq-sj-Baz" id="Ieo-pe-xWT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="117.59999999999999"/>
+        </scene>
+    </scenes>
+</document>
