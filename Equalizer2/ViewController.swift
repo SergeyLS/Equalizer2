@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var slider6: VerticalSlider!
     @IBOutlet weak var slider7: VerticalSlider!
     
+    
+    
     let trackHeight: CGFloat = 29
     
     override func viewDidLoad() {

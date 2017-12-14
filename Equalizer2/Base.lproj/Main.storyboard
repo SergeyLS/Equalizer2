@@ -315,31 +315,65 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMR-uj-Np8">
-                                <rect key="frame" x="62.5" y="133.5" width="250" height="400"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="62.5" y="158.5" width="250" height="350"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="BT8-ng-AKp"/>
+                                    <constraint firstAttribute="height" constant="350" id="BT8-ng-AKp"/>
                                     <constraint firstAttribute="width" constant="250" id="mn0-mS-uMn"/>
                                 </constraints>
                             </pickerView>
                             <view userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhG-jA-AbU">
-                                <rect key="frame" x="74" y="267" width="227" height="133"/>
+                                <rect key="frame" x="74" y="275" width="227" height="117"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwL-gh-RAq">
+                                <rect key="frame" x="0.0" y="528.5" width="375" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zk-hh-HTa" customClass="AKPickerView" customModule="Equalizer2" customModuleProvider="target">
+                                        <rect key="frame" x="62.5" y="0.0" width="250" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="sKc-Rz-m4W"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="interitemSpacing">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="highlightedTextColor">
+                                                <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6zk-hh-HTa" secondAttribute="bottom" id="Re9-N1-EcA"/>
+                                    <constraint firstItem="6zk-hh-HTa" firstAttribute="centerX" secondItem="dwL-gh-RAq" secondAttribute="centerX" id="Vhp-Dg-pLG"/>
+                                    <constraint firstItem="6zk-hh-HTa" firstAttribute="top" secondItem="dwL-gh-RAq" secondAttribute="top" id="fZA-VN-QSo"/>
+                                    <constraint firstAttribute="height" constant="40" id="uLv-2s-NWX"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DhG-jA-AbU" firstAttribute="height" secondItem="bMR-uj-Np8" secondAttribute="height" multiplier="1:3" id="3UM-RF-MQ3"/>
                             <constraint firstItem="DhG-jA-AbU" firstAttribute="width" secondItem="bMR-uj-Np8" secondAttribute="width" multiplier="1:1.1" id="Rbt-qG-Zir"/>
+                            <constraint firstItem="dwL-gh-RAq" firstAttribute="top" secondItem="bMR-uj-Np8" secondAttribute="bottom" constant="20" id="TiW-bt-ixK"/>
                             <constraint firstItem="DhG-jA-AbU" firstAttribute="centerX" secondItem="bMR-uj-Np8" secondAttribute="centerX" id="Y6n-zd-TdC"/>
+                            <constraint firstItem="dwL-gh-RAq" firstAttribute="trailing" secondItem="yBQ-ZT-TT0" secondAttribute="trailing" id="iCP-HS-nem"/>
                             <constraint firstItem="DhG-jA-AbU" firstAttribute="centerY" secondItem="bMR-uj-Np8" secondAttribute="centerY" id="kyS-6e-9mZ"/>
                             <constraint firstItem="bMR-uj-Np8" firstAttribute="centerY" secondItem="7eb-d3-yN5" secondAttribute="centerY" id="mrU-eE-ZCW"/>
                             <constraint firstItem="bMR-uj-Np8" firstAttribute="centerX" secondItem="7eb-d3-yN5" secondAttribute="centerX" id="sXr-yh-P7T"/>
+                            <constraint firstItem="dwL-gh-RAq" firstAttribute="leading" secondItem="yBQ-ZT-TT0" secondAttribute="leading" id="ugC-2j-g0K"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yBQ-ZT-TT0"/>
                     </view>
                     <connections>
                         <outlet property="pickerTempoUI" destination="bMR-uj-Np8" id="BkK-JJ-Glt"/>
+                        <outlet property="pickerView1" destination="6zk-hh-HTa" id="fb0-Nx-4bk"/>
                         <outlet property="viewOnPickerUI" destination="DhG-jA-AbU" id="7V4-bY-DIC"/>
                     </connections>
                 </viewController>

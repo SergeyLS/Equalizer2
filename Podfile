@@ -8,4 +8,8 @@ target 'Equalizer2' do
   # Pods for Equalizer2
   # pod 'VerticalSteppedSlider'
 
+#pod 'HorizontalPicker'
+
+#pod "AKPickerView-Swift"
+
 end
