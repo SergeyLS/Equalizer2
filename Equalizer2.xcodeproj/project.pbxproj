@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A7164AAC9C5D8CC93B30B77E /* Pods_Equalizer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C348EC48EBE1972115403C /* Pods_Equalizer2.framework */; };
-		F752A9311FE17972004177A0 /* Cell1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A9301FE17972004177A0 /* Cell1CollectionViewCell.swift */; };
 		F75602BB1FE1452800B32121 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75602BA1FE1452800B32121 /* PickerViewController.swift */; };
 		F798EC031FE123D200F5EF10 /* VerticalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798EC021FE123D200F5EF10 /* VerticalSlider.swift */; };
 		F798EC051FE1242400F5EF10 /* InternalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798EC041FE1242400F5EF10 /* InternalSlider.swift */; };
-		F7E7286A1FE26DA3007FE526 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E728691FE26DA3007FE526 /* CenterCellCollectionViewFlowLayout.swift */; };
 		F7E7FA8B1FE02B87005E8822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7FA8A1FE02B87005E8822 /* AppDelegate.swift */; };
 		F7E7FA8D1FE02B87005E8822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E7FA8C1FE02B87005E8822 /* ViewController.swift */; };
 		F7E7FA901FE02B87005E8822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E7FA8E1FE02B87005E8822 /* Main.storyboard */; };
@@ -25,11 +23,9 @@
 		58C348EC48EBE1972115403C /* Pods_Equalizer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equalizer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A1756210367DF7D5EFB924 /* Pods-Equalizer2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equalizer2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Equalizer2/Pods-Equalizer2.debug.xcconfig"; sourceTree = "<group>"; };
 		EE17AA76FD2BCECE0E19CCF0 /* Pods-Equalizer2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equalizer2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Equalizer2/Pods-Equalizer2.release.xcconfig"; sourceTree = "<group>"; };
-		F752A9301FE17972004177A0 /* Cell1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cell1CollectionViewCell.swift; path = /Users/sergeyls/Desktop/Xcode/Designables/Equalizer2/Equalizer2/Cell1CollectionViewCell.swift; sourceTree = "<absolute>"; };
 		F75602BA1FE1452800B32121 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		F798EC021FE123D200F5EF10 /* VerticalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSlider.swift; sourceTree = "<group>"; };
 		F798EC041FE1242400F5EF10 /* InternalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalSlider.swift; sourceTree = "<group>"; };
-		F7E728691FE26DA3007FE526 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		F7E7FA871FE02B87005E8822 /* Equalizer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equalizer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E7FA8A1FE02B87005E8822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E7FA8C1FE02B87005E8822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,14 +74,6 @@
 			path = VerticalSlider;
 			sourceTree = "<group>";
 		};
-		F7E728681FE26D75007FE526 /* CenterCellCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				F7E728691FE26DA3007FE526 /* CenterCellCollectionViewFlowLayout.swift */,
-			);
-			path = CenterCellCollectionView;
-			sourceTree = "<group>";
-		};
 		F7E7FA7E1FE02B87005E8822 = {
 			isa = PBXGroup;
 			children = (
@@ -108,13 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				F7F177861FE294E8003FF5D4 /* HorizontalSlider */,
-				F7E728681FE26D75007FE526 /* CenterCellCollectionView */,
 				F798EC011FE123C200F5EF10 /* VerticalSlider */,
 				F7E7FA8A1FE02B87005E8822 /* AppDelegate.swift */,
 				F7E7FA8C1FE02B87005E8822 /* ViewController.swift */,
 				F7E7FA8E1FE02B87005E8822 /* Main.storyboard */,
 				F75602BA1FE1452800B32121 /* PickerViewController.swift */,
-				F752A9301FE17972004177A0 /* Cell1CollectionViewCell.swift */,
 				F7E7FA911FE02B87005E8822 /* Assets.xcassets */,
 				F7E7FA931FE02B87005E8822 /* LaunchScreen.storyboard */,
 				F7E7FA961FE02B87005E8822 /* Info.plist */,
@@ -259,11 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E7286A1FE26DA3007FE526 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
 				F75602BB1FE1452800B32121 /* PickerViewController.swift in Sources */,
 				F7F177891FE29685003FF5D4 /* AKPickerView.swift in Sources */,
 				F798EC051FE1242400F5EF10 /* InternalSlider.swift in Sources */,
-				F752A9311FE17972004177A0 /* Cell1CollectionViewCell.swift in Sources */,
 				F798EC031FE123D200F5EF10 /* VerticalSlider.swift in Sources */,
 				F7E7FA8D1FE02B87005E8822 /* ViewController.swift in Sources */,
 				F7E7FA8B1FE02B87005E8822 /* AppDelegate.swift in Sources */,
